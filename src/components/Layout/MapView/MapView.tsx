@@ -63,7 +63,7 @@ function MapView({
     ];
 
     const customIcon = new Icon({
-        iconUrl: '/pin.png',
+        iconUrl: '/geofinder-frontend/pin.png',
         iconSize: [38, 38],
     });
 
