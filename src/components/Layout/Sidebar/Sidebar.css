@@ -1,0 +1,40 @@
+.sidebar {
+    width: 300px;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    font-family: sans-serif;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.sidebar input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sidebar button {
+    padding: 0.6rem;
+    background-color: #0d3b66;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sidebar button:hover {
+    background-color: #125192;
+}
+
+.route-info {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #333;
+}
